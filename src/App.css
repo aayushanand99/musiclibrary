@@ -1,0 +1,53 @@
+html,body {
+    height: 100%;
+    width: 100%;
+}
+
+.container-fluid{
+  background-color: #221F1F;
+  align-items:center;
+  height:inherit;
+  overflow-y: auto
+}
+
+.title{
+ color:#e50914;
+ text-align: center;
+ height:inherit
+
+}
+.card-title{
+   color:#e50914;
+   text-overflow: ellipsis;
+}
+
+.cols {
+    -moz-column-count:4;
+    -moz-column-gap: 4%;
+    -moz-column-width: 30%;
+    -webkit-column-count:4;
+    -webkit-column-gap: 4%;
+    -webkit-column-width: 30%;
+    column-count: 4;
+    column-gap: 4%;
+    column-width: 30%;
+}
+.my-gallery-class{
+  margin:0 auto
+}
+.description{
+  background-color:#221F1F
+}
+.footer{
+  padding:10%
+}
+
+.artistName{
+  color:#e50914;
+  font-size: 0.7em;
+   text-overflow: ellipsis;
+}
+.row{
+  align-items: center;
+  justify-content: center;
+}
