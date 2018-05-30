@@ -54,7 +54,7 @@ class Main extends Component {
                     {
                         songs && songs.map((item, index) => {
                             return <div key={"" + index} className="card box">
-                                <img src={item['im:image'][2].label} />
+                                <img src={item['im:image'][2].label} alt="Have pateince,loading ..." />
                                 <div className="card-body description">
                                     <h7 className={'card-title'}>{item['im:name'].label}</h7>
                                 </div>
